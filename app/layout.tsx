@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { Toaster } from 'sonner';
 
 import { ThemeProvider } from '@/components/theme-provider';
+import { VWOScript } from 'vwo-smartcode-nextjs';
 
 import './globals.css';
 
@@ -55,6 +56,7 @@ export default async function RootLayout({
             __html: THEME_COLOR_SCRIPT,
           }}
         />
+        <VWOScript accountId="735612" type="ASYNC"/>
       </head>
       <body className="">
         <ThemeProvider
