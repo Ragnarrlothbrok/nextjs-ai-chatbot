@@ -56,7 +56,7 @@ export default async function RootLayout({
             __html: THEME_COLOR_SCRIPT,
           }}
         />
-        <VWOScript accountId="735612" type="ASYNC"/>
+        <VWOScript accountId="735612" type="ASYNC" />
       </head>
       <body className="">
         <ThemeProvider
